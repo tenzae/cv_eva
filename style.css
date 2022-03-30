@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Noto+Sans:wght@700&family=Roboto&family=Work+Sans:wght@300&display=swap" rel="stylesheet");
+
+body {
+	font-family: 'Lora' , 'sans-serif';
+     background-image: url(https://static.vecteezy.com/system/resources/previews/002/307/694/large_2x/watercolor-pastel-background-hand-painted-aquarelle-colorful-stains-on-paper-vector.jpg);
+}
+h1,h2,h3,a {
+	font-family: 'Work Sans' , 'sans-serif';
+}
+h1 {
+	color:#C70039;;
+}
+h2 {
+	color:#C70039;
+}
+a{
+	text-decoration: none;
+}
+.presentation{
+	background-color: white;
+	padding: 48px;
+	margin:16px auto;
+	width:700px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 2px #0000007d;
+	text-align:center;
+}
+.contact{
+	background-color: white;
+	padding:5%;
+	margin:16px auto;
+	width:700px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 2px #0000007d;
+}
+
+.titre2{
+	text-align: center;
+}
+
+.titre3{
+	text-align: center;
+}
+.titre4{
+	text-align: center;
+}
+.titre5{
+	text-align: center;
+}
+.titre6{
+	text-align: center;
+}
+
+.experiences{
+	background-color: white;
+	padding: 48px;
+	margin:16px auto;
+	width:700px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 2px #0000007d;
+}
+.formation{
+	background-color: white;
+	padding: 48px;
+	margin:16px auto;
+	width:700px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 2px #0000007d;
+}
+.competences{
+	background-color: white;
+	padding: 48px;
+	margin:16px auto;
+	width:700px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 2px #0000007d;
+}
+
+.follow{
+	background-color: white;
+	padding:5%;
+	margin:16px auto;
+	width:700px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 2px #0000007d;
+	text-align: center;
+}
+.cards-flex {
+	display: flex;
+	padding:48px;
+}
+
+.img-circle{
+	border-radius: 50%;
+	height :150px;
+	width:150px;
+	object-fit: cover;
+}
+
+.btn-blue{
+	background-color: #DB557A;
+	color:white;
+	padding:16px;
+	border-radius:6px;
+	font-weight:bold;
+	border-radius: 6px;
+	margin: 0 auto;
+	display:block;
+	width: 25%;
+	border:1px solid #DB557A;
+	transition:1s;
+}
+.btn-blue:hover{
+	background-color: white;
+	color:#DB557A;
+	transition: 1s;
+}
+
+.reseaux li{
+	display: inline;
+}
+.reseaux li{
+	padding:0;
+}
+.reseaux ul{
+	padding:0;
+}
+.reseaux a{
+	font-size: 48px;
+	color:rgba(0,0,0,0.3);
+}
+.reseaux a:hover{
+	color:#C70039;
+}
