@@ -1,18 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Noto+Sans:wght@700&family=Roboto&family=Work+Sans:wght@300&display=swap" rel="stylesheet");
-
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Noto+Sans:wght@700&family=Poppins:wght@200&family=Roboto&family=Work+Sans:wght@300&display=swap" rel="stylesheet");
 body {
-	font-family: 'Lora' , 'sans-serif';
+	font-family:'Poppins', sans-serif;
      background-image: url(https://static.vecteezy.com/system/resources/previews/002/307/694/large_2x/watercolor-pastel-background-hand-painted-aquarelle-colorful-stains-on-paper-vector.jpg);
+     background-size: cover;
 }
 h1,h2,h3,a {
 	font-family: 'Work Sans' , 'sans-serif';
 }
-h1 {
-	color:#C70039;;
-}
-h2 {
+h1,h2 {
 	color:#C70039;
+	text-align: center;
 }
+
 a{
 	text-decoration: none;
 }
@@ -28,27 +27,9 @@ a{
 .contact{
 	background-color: white;
 	padding:5%;
-	margin:16px auto;
-	width:700px;
+	width:90%;
 	border-radius: 6px;
 	box-shadow: 1px 1px 6px 2px #0000007d;
-}
-
-.titre2{
-	text-align: center;
-}
-
-.titre3{
-	text-align: center;
-}
-.titre4{
-	text-align: center;
-}
-.titre5{
-	text-align: center;
-}
-.titre6{
-	text-align: center;
 }
 
 .experiences{
@@ -59,7 +40,12 @@ a{
 	border-radius: 6px;
 	box-shadow: 1px 1px 6px 2px #0000007d;
 }
-.formation{
+
+.experiences img {
+	height: 60px;
+}
+
+.formation,.comptences{
 	background-color: white;
 	padding: 48px;
 	margin:16px auto;
@@ -67,6 +53,7 @@ a{
 	border-radius: 6px;
 	box-shadow: 1px 1px 6px 2px #0000007d;
 }
+
 .competences{
 	background-color: white;
 	padding: 48px;
@@ -76,18 +63,22 @@ a{
 	box-shadow: 1px 1px 6px 2px #0000007d;
 }
 
+
 .follow{
 	background-color: white;
 	padding:5%;
-	margin:16px auto;
-	width:700px;
+	width:90%;
 	border-radius: 6px;
 	box-shadow: 1px 1px 6px 2px #0000007d;
 	text-align: center;
+	justify-self: end;
 }
 .cards-flex {
-	display: flex;
-	padding:48px;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 16px;
+	width: 796px;
+    margin: 0 auto;
 }
 
 .img-circle{
@@ -118,11 +109,6 @@ a{
 
 .reseaux li{
 	display: inline;
-}
-.reseaux li{
-	padding:0;
-}
-.reseaux ul{
 	padding:0;
 }
 .reseaux a{
@@ -131,4 +117,17 @@ a{
 }
 .reseaux a:hover{
 	color:#C70039;
+}
+
+.titre-red{
+	background-color: #91283B;
+	color:white;
+	padding:16px;
+	border-radius:6px;
+	font-weight:bold;
+	border-radius: 6px;
+	display:block;
+	width: 15%;
+	border:1px solid #91283B;
+	text-align:center;
 }
